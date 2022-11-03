@@ -1,0 +1,120 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    display: flex;
+
+} */
+
+header {
+    background-color: cornflowerblue;
+    margin: 30px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.main {
+    margin: 0px auto;
+    width: 80%;
+
+}
+
+.continue {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px;
+
+}
+
+li {
+    padding-left: 50px;
+}
+
+.titulo {
+    font-size: large;
+}
+
+.trivia {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: nowrap;
+
+}
+
+.categ {
+    flex: 1;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bloques {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.col-bloque-1,
+.col-bloque-2,
+.col-bloque-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.caja-bloq-1,
+.caja-bloq-2,
+.caja-bloq-3 {
+
+    /* flex: 2; */
+    background-color: dodgerblue;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20%;
+
+
+}
+
+/* .caja-1,
+.caja-2,
+.caja-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 10px;
+} */
